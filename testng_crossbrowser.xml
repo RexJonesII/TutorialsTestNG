@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Testing">
+  <test name = "Test On Chrome">
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="Version" value="103.0"/>
+    <parameter name="Platform" value="Windows 10"/>
+    <classes>
+      <class name="DemoTestNG.CrossBrowserTesting"/>
+    </classes>
+  </test>
+  <test name = "Test On Edge">
+    <parameter name="Browser" value="edge"/>
+    <parameter name="Version" value="103.0"/>
+    <parameter name="Platform" value="Windows 10"/>
+    <classes>
+      <class name="DemoTestNG.CrossBrowserTesting"/>
+    </classes>
+  </test>
+</suite>
